@@ -1,5 +1,5 @@
 #!/bin/bash
-docker image build -t sixeyed/pi-psod -f ./docker/web/Dockerfile .
+docker image build -t vince0103/pi-psod -f ./docker/web/Dockerfile .
 
 if [ -z ${DOCKER_HUB_USER+x} ]
 then 
